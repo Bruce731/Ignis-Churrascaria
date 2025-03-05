@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Reenie+Beanie&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Forum&display=swap');
+
+:root {
+    --font-titulo: 'EB Garamond', Work Sans;
+    --font-paragrafo: 'Fórum', Work Sans;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 243, 135);
+}
+header {
+    background-color: rgb(243, 243, 135);
+    min-height: 120px;
+    display: flex;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 870px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 400px ;
+    padding-top: 60px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+main {
+    margin: auto;
+    min-width: 320px;
+    max-width: 870px;
+}
+main > section {
+    padding: 10px;
+    line-height: 20px;
+}
+
+section h2 {
+    font-family: var(--font-titulo);
+    color: gold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-family: var(--font-paragrafo);
+    color: black;
+    font-size: 1.em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.churrascaria {
+    width: 100%;
+}
+
+.pedidos {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right, red, orange);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaço entre os elementos */
+    margin: 10px;
+}
+
+.container div {
+    background-color: rgba(238, 255, 0, 0.521);
+    text-align: center;
+    padding: 20px;
+}
+div img {
+    width: 300px;
+}
+
+
+/* .churrascão {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.churrascão img {
+    width: 50%;
+    height: 100%;
+}    mexer depois*/
+
+.container2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.container2 div {
+    background-color: rgba(255, 253, 110, 0.486);
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.container3 {
+    display: flex;
+    gap: 10px;
+}
+
+.contato {
+    background-image:linear-gradient(to left, rgb(133, 134, 24), rgb(126, 110, 6));
+    padding: 10px;
+}
+
+.contato h2 {
+    font-family: var(--font-titulo);
+    color: gold;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    font-family: var(--font-paragrafo);
+    color: rgb(211, 209, 110);
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.topicos li {
+    justify-content: end;
+    text-decoration: none;
+}
