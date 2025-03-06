@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgba(235, 255, 54, 0.637), rgb(236, 235, 127));
+    background-image: linear-gradient(to bottom, rgba(180, 241, 36, 0.637), rgb(236, 235, 127));
 }
 header {
 
@@ -76,6 +76,7 @@ section p {
     font-size: 1.em;
     margin-bottom: 15px;
     text-align: justify;
+    text-indent: 20px;
 }
 
 .churrascaria {
@@ -112,17 +113,15 @@ div img {
 }
 
 
-/* .churrascão {
-    display: flex;
+.churrascão {
     justify-content: center;
-    display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
 .churrascão img {
     width: 50%;
     height: 100%;
-}    mexer depois*/
+}    /*mexer depois */
 
 .container2 {
     display: flex;
@@ -140,6 +139,7 @@ div img {
 
 footer {
     margin: auto;
+    display: ;
 }
 
 .container3 {
