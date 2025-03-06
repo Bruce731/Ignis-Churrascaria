@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgba(180, 241, 36, 0.637), rgb(236, 235, 127));
+    background-color: rgba(252, 137, 6, 0.637);
 }
 header {
 
@@ -65,7 +65,7 @@ main > section {
 
 section h2 {
     font-family: var(--font-titulo);
-    color: gold;
+    color: rgba(116, 0, 0, 0.911);
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -104,12 +104,14 @@ section p {
 }
 
 .container div {
-    background-color: rgba(238, 255, 0, 0.521);
+    background-color: rgba(255, 51, 0, 0.521);
     text-align: center;
     padding: 20px;
+    flex-wrap: wrap;
+    max-width: 670px;
 }
 div img {
-    width: 300px;
+    width: 200px;
 }
 
 
@@ -119,43 +121,43 @@ div img {
 }
 
 .churrascão img {
-    width: 50%;
+    width: 70%;
     height: 100%;
+    justify-content: center;
 }    /*mexer depois */
 
 .container2 {
     display: flex;
     gap: 10px;
-    float: center;
+    width: 100%;  /* Deixe a largura ocupar todo o espaço disponível */
+      /* Coloca as divisões de forma espaçada */
+    flex-wrap: wrap;
 }
 
 .container2 div {
-    background-color: rgba(255, 253, 110, 0.486);
+    background-color: rgba(255, 51, 0, 0.521);
     text-align: center;
     padding: 20px;
-    flex-wrap: wrap;
-
-}
-
-footer {
-    margin: auto;
-    display: ;
+    min-width: 320px; /* Largura mínima das divisões */
+    max-width: 620px; /* Largura máxima das divisões */
+    flex: 1;  /* Faz com que as divisões se ajustem de forma flexível */
 }
 
 .container3 {
     display: flex;
     gap: 10px;
     margin: auto;
+    width: 100%;
 }
 
 .contato {
-    background-image:linear-gradient(to left, rgb(133, 134, 24), rgb(126, 110, 6));
+    background-image:linear-gradient(to left, rgb(134, 59, 24), rgb(199, 90, 0));
     padding: 10px;
 }
 
 .contato h2 {
     font-family: var(--font-titulo);
-    color: gold;
+    color: rgb(255, 174, 0);
     font-size: 2.5em;
     margin-bottom: 20px;
 }
@@ -168,7 +170,25 @@ footer {
     text-align: justify;
 }
 
-.topicos li {
+#topico {
+    align-items: center;
+}
+
+.topicos {
+    margin: auto;
     justify-content: end;
+}
+
+.topicos li {
+    align-items: center;
     text-decoration: none;
+    list-style: none;
+    float: right;
+    columns: 5;
+}
+
+footer {
+    background-color: rgba(236, 106, 0, 0.747);
+    text-align: center;
+    margin: auto;
 }
