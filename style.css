@@ -19,34 +19,44 @@ header {
     background-color: rgb(243, 243, 135);
     min-height: 120px;
     display: flex;
+    margin: auto;
     padding: 20px;
     min-width: 320px;
-    max-width: 870px;
+    max-width: 1440px;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 15%;
+    height: 15%;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav {
     display: inline-block;
-    margin-left: 400px ;
+    margin: auto;
     padding-top: 60px;
-
 }
 
 nav li {
     display: inline;
     margin: 10px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+    font-family: var(--font-paragrafo);
+    font-size: 1.6em;
 }
 
 main {
     margin: auto;
     min-width: 320px;
-    max-width: 870px;
+    max-width: 1440px;
 }
 main > section {
     padding: 10px;
@@ -87,8 +97,9 @@ section p {
 .container {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Espaço entre os elementos */
-    margin: 10px;
+    gap: 10px;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .container div {
