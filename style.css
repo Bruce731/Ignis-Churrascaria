@@ -16,13 +16,13 @@ body {
     background-color: rgba(252, 137, 6, 0.637);
 }
 header {
-
+    background-image: linear-gradient(to right, rgb(245, 96, 42), red);
     min-height: 120px;
     display: flex;
     margin: auto;
     padding: 20px;
     min-width: 320px;
-    max-width: 1440px;
+    max-width: 100%;
 }
 
 .logo {
@@ -56,7 +56,7 @@ a {
 main {
     margin: auto;
     min-width: 320px;
-    max-width: 1440px;
+    max-width: 90%;
 }
 main > section {
     padding: 10px;
@@ -118,23 +118,27 @@ div img {
     width: 100%;
     height: 700%;
     justify-content: center;
-}    /*mexer depois */
+}
 
 .container2 {
     display: flex;
     gap: 10px;
-    width: 100%;  /* Deixe a largura ocupar todo o espaço disponível */
-      /* Coloca as divisões de forma espaçada */
+    width: 80%;
+    margin: auto;
     flex-wrap: wrap;
 }
 
 .container2 div {
     background-color: rgba(255, 51, 0, 0.521);
     text-align: center;
+    margin: auto;
     padding: 20px;
-    min-width: 320px; 
-    max-width: 620px; 
-    flex: 40%;
+    flex: 35%;
+    border-radius: 10px;
+}
+
+.container_churrasco {
+    margin-top: 300px;
 }
 
 .container3 {
