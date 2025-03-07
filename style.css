@@ -114,15 +114,9 @@ div img {
     width: 200px;
 }
 
-
-.churrascão {
-    justify-content: center;
-    grid-template-columns: 2fr 1fr;
-}
-
 .churrascão img {
-    width: 70%;
-    height: 100%;
+    width: 100%;
+    height: 700%;
     justify-content: center;
 }    /*mexer depois */
 
@@ -138,9 +132,9 @@ div img {
     background-color: rgba(255, 51, 0, 0.521);
     text-align: center;
     padding: 20px;
-    min-width: 320px; /* Largura mínima das divisões */
-    max-width: 620px; /* Largura máxima das divisões */
-    flex: 1;  /* Faz com que as divisões se ajustem de forma flexível */
+    min-width: 320px; 
+    max-width: 620px; 
+    flex: 40%;
 }
 
 .container3 {
@@ -148,6 +142,28 @@ div img {
     gap: 10px;
     margin: auto;
     width: 100%;
+}
+
+.container4 {
+    background-color: rgba(255, 51, 0, 0.521);
+    text-align: center;
+    padding: 20px;
+    max-width: 620px; 
+    gap: 30px;
+    display: flex;
+}
+.avaliações div {
+    background-color: rgb(204, 82, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.avaliações img {
+    border-radius: 70%;
+    width: 20%;
+    height: 100%;
 }
 
 .contato {
