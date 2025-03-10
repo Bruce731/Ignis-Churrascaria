@@ -53,10 +53,14 @@ a {
     font-size: 1.6em;
 }
 
+a:hover {
+    background-color: rgb(238, 150, 35);
+    border-radius: 10px;
+}
+
 main {
     margin: auto;
-    min-width: 320px;
-    max-width: 90%;
+    max-width: 100%vw;
 }
 main > section {
     padding: 10px;
@@ -87,7 +91,7 @@ section p {
     font-size: 2em;
     text-decoration: none;
     color: black;
-    background-image: linear-gradient(to right, red, orange);
+    background-image: linear-gradient(to right, rgb(255, 0, 0), orange);
     border-radius: 10px;
     text-align: center;
     padding: 10px;
@@ -101,6 +105,8 @@ section p {
     gap: 10px;
     float: left;
     margin-bottom: 20px;
+    min-width: 100%vw;
+    flex-wrap: wrap;
 }
 
 .container div {
@@ -173,6 +179,7 @@ div img {
 .contato {
     background-image:linear-gradient(to left, rgb(134, 59, 24), rgb(199, 90, 0));
     padding: 10px;
+    width: 100%vw;
 }
 
 .contato h2 {
@@ -192,6 +199,7 @@ div img {
 
 #topico {
     align-items: center;
+    width: 100%vw;
 }
 
 .topicos {
