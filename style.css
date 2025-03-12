@@ -129,8 +129,7 @@ div img {
 .container2 {
     display: flex;
     gap: 10px;
-    width: 100%;  /* Deixe a largura ocupar todo o espaço disponível */
-      /* Coloca as divisões de forma espaçada */
+    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -138,9 +137,9 @@ div img {
     background-color: rgba(255, 51, 0, 0.521);
     text-align: center;
     padding: 20px;
-    min-width: 320px; /* Largura mínima das divisões */
-    max-width: 620px; /* Largura máxima das divisões */
-    flex: 1;  /* Faz com que as divisões se ajustem de forma flexível */
+    min-width: 400px;
+    max-width: 1300vw;
+    flex: 1;
 }
 
 .container3 {
