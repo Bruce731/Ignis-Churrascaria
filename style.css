@@ -16,13 +16,13 @@ body {
     background-color: rgba(252, 137, 6, 0.637);
 }
 header {
-
+    background-image: linear-gradient(to right, rgb(245, 96, 42), red);
     min-height: 120px;
     display: flex;
     margin: auto;
     padding: 20px;
     min-width: 320px;
-    max-width: 1440px;
+    max-width: 100%;
 }
 
 .logo {
@@ -53,10 +53,14 @@ a {
     font-size: 1.6em;
 }
 
+a:hover {
+    background-color: rgb(238, 150, 35);
+    border-radius: 10px;
+}
+
 main {
     margin: auto;
-    min-width: 320px;
-    max-width: 1440px;
+    max-width: 100%vw;
 }
 main > section {
     padding: 10px;
@@ -87,7 +91,7 @@ section p {
     font-size: 2em;
     text-decoration: none;
     color: black;
-    background-image: linear-gradient(to right, red, orange);
+    background-image: linear-gradient(to right, rgb(255, 0, 0), orange);
     border-radius: 10px;
     text-align: center;
     padding: 10px;
@@ -101,6 +105,8 @@ section p {
     gap: 10px;
     float: left;
     margin-bottom: 20px;
+    min-width: 100%vw;
+    flex-wrap: wrap;
 }
 
 .container div {
@@ -114,32 +120,41 @@ div img {
     width: 200px;
 }
 
-
-.churrascão {
-    justify-content: center;
-    grid-template-columns: 2fr 1fr;
-}
-
 .churrascão img {
-    width: 70%;
-    height: 100%;
+    width: 100%;
+    height: 700%;
     justify-content: center;
-}    /*mexer depois */
+}
 
 .container2 {
     display: flex;
     gap: 10px;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 80%;
+    margin: auto;
+>>>>>>> da500e506bb2b7c33f7f841fc8c7c13f11076456
     flex-wrap: wrap;
 }
 
 .container2 div {
     background-color: rgba(255, 51, 0, 0.521);
     text-align: center;
+    margin: auto;
     padding: 20px;
+<<<<<<< HEAD
     min-width: 400px;
     max-width: 1300vw;
     flex: 1;
+=======
+    flex: 35%;
+    border-radius: 10px;
+}
+
+.container_churrasco {
+    margin-top: 300px;
+>>>>>>> da500e506bb2b7c33f7f841fc8c7c13f11076456
 }
 
 .container3 {
@@ -149,9 +164,32 @@ div img {
     width: 100%;
 }
 
+.container4 {
+    background-color: rgba(255, 51, 0, 0.521);
+    text-align: center;
+    padding: 20px;
+    max-width: 620px; 
+    gap: 30px;
+    display: flex;
+}
+.avaliações div {
+    background-color: rgb(204, 82, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.avaliações img {
+    border-radius: 70%;
+    width: 20%;
+    height: 100%;
+}
+
 .contato {
     background-image:linear-gradient(to left, rgb(134, 59, 24), rgb(199, 90, 0));
     padding: 10px;
+    width: 100%vw;
 }
 
 .contato h2 {
@@ -171,6 +209,7 @@ div img {
 
 #topico {
     align-items: center;
+    width: 100%vw;
 }
 
 .topicos {
